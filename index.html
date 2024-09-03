@@ -38,15 +38,15 @@
 <body class="font-manrope">
   <!-- Header Section -->
     <header class="container mx-auto">
-      <div class="hero">
-        <div class="hero-content flex-col lg:flex-row">
+
+        <div class="flex justify-between items-center flex-col lg:flex-row lg:m-16">
           <div>
-            <h1 class="text-5xl lg:text-7xl font-extrabold">It's good <br>tea time at The <br>Tea House</h1>
+            <h1 class="text-5xl lg:text-8xl font-extrabold">It's good <br>tea time at The <br>Tea House</h1>
             <p class="py-6 font-medium text-wrap">Tea and Botanical Solutions Supplier Give Optimum <br>Satisfaction To Your Taste Buds.</p>
             <button class="btn btn-primary bg-gradient-to-r from-[#FF8938] to-[#FF0000] ... border-none">Explore More <img src="images/arrow.png" alt=""></button>
           </div>
           <div>
-            <img src="images/banner.png" class="max-w-sm lg:max-w-lg " />
+            <img src="images/banner.png" class="max-w-sm lg:max-w-xl " />
             <div class="-mt-24 ms-10 bg-white flex items-center gap-4 p-4 shadow-lg w-56 justify-center rounded-md relative z-10">
               <i class="fa-solid fa-star fa-xl" style="color: #ffdc64;"></i>
               <div>
@@ -56,7 +56,7 @@
             </div>
           </div>
         </div>
-      </div>
+
     </header>
     <!-- Main Section -->
     <main class="container mx-auto">
@@ -217,48 +217,54 @@
     </main>
 
     <!-- Footer Section -->
-    <footer class="bg-[#fee9e8] text-base-content px-48 py-20">
-        <div class="flex justify-between pb-10">
+    <footer class="bg-[#fee9e8] text-base-content lg:px-48 py-20">
+        <div class="flex flex-col md:flex-row justify-between pb-20">
           <img src="images/cup.png" alt="">
-          <p class="space-x-8">
+          <p class="space-x-8 mr-24">
             <span>Ready to get strated?</span>
             <button class="btn btn-primary bg-gradient-to-r from-[#FF8938] to-[#FF0000] ... border-none">Get Started</button>
           </p>
         </div>
-        <div class="footer ">
-          <nav>
+
+        <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 ">
+          <nav class="grid grid-rows-4">
             <h6 class="footer-title">Services</h6>
             <a class="link link-hover">Branding</a>
             <a class="link link-hover">Design</a>
             <a class="link link-hover">Marketing</a>
             <a class="link link-hover">Advertisement</a>
           </nav>
-          <nav>
+          <nav class="grid grid-rows-4">
             <h6 class="footer-title">Company</h6>
             <a class="link link-hover">About us</a>
             <a class="link link-hover">Contact</a>
             <a class="link link-hover">Jobs</a>
             <a class="link link-hover">Press kit</a>
           </nav>
-          <nav>
+          <nav class="grid grid-rows-4">
             <h6 class="footer-title">Legal</h6>
             <a class="link link-hover">Terms of use</a>
             <a class="link link-hover">Privacy policy</a>
             <a class="link link-hover">Cookie policy</a>
           </nav>
-          <form>
+          <form class="grid grid-rows-4">
             <h6 class="footer-title">Subscribe to our newsletter</h6>
             <fieldset class="form-control w-80">
               <div class="join">
                 <input type="text" placeholder="Email address"class="py-4 bg-transparent border-b-2 border-black outline-none" />
-                <button class="btn ">Subscribe</button>
+                <button class="btn bg-gradient-to-r from-[#FF8938] to-[#FF0000] ... rounded-full"><i class="fa-solid fa-chevron-right fa-xl" style="color: #ffffff;"></i></button>
               </div>
             </fieldset>
+            <div class="flex pt-8 space-x-10">
+              <i class="fa-brands fa-facebook-f fa-xl" style="color: #494949;"></i>
+              <i class="fa-brands fa-twitter fa-xl" style="color: #494949;"></i>
+              <i class="fa-brands fa-instagram fa-xl" style="color: #494949;"></i>
+            </div>
           </form>
         </div>
 
-        <div>
-          <aside class="footer-center p-10">
+        <div >
+          <aside class="footer-center pt-14">
             <p>© 2027 UIDesign.to - All rights reserved.</p>
           </aside>
         </div>
